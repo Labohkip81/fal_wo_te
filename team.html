@@ -8,11 +8,11 @@
 
 <html lang="en">
 	
-<!-- Mirrored from demo.themetorium.net/html/sepia/gallery-single-grid-fluid-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jul 2019 14:19:10 GMT -->
+<!-- Mirrored from demo.themetorium.net/html/sepia/albums-grid-fluid-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jul 2019 14:14:17 GMT -->
 <head>
 
 		<!-- Title -->
-		<title>Players</title>
+		<title>Portfolio - Sepia - Photography Portfolio HTML Website Template</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
@@ -25,8 +25,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Favicon (http://www.favicon-generator.org/) -->
-		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-		<link rel="icon" href="favicon.png" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 		<!-- Google fonts (https://www.google.com/fonts) -->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> <!-- Global font -->
@@ -99,7 +99,53 @@
 	<body id="body" class="animsition tt-boxed">
 
 
-	
+		<!-- BEGIN DEMO PANEL (FOR DEMO SITE ONLY!) -->
+		<div class="demo-panel">
+			<div class="demo-panel-trigger">
+				<span class="dpt-icon"></span>
+				<span class="dpt-close"></span>
+			</div>
+			<div class="demo-panel-inner">
+				<div class="demo-panel-header">Demo Panel</div>
+				<div class="demo-panel-content">
+					<div class="demo-panel-block light-sw-block">
+						<h2 class="dp-heading">Light Switcher:</h2>
+						<div class="light-switcher">
+							<div class="lsw-btn light-lsw-btn" title="Day Mode"></div>
+							<div class="lsw-btn dark-lsw-btn" title="Night Mode"></div>
+						</div>
+					</div>
+					<div class="demo-panel-block rtl-sw-block">
+						<h2 class="dp-heading">Round Style:</h2>
+						<div class="round-switcher">
+							<div class="roundsw-btn ltr-roundsw-btn" title="Round style OFF">OFF</div>
+							<div class="roundsw-btn round-roundsw-btn" title="Round style ON">ON</div>
+						</div>
+					</div>
+					<div class="demo-panel-block rtl-sw-block">
+						<h2 class="dp-heading">RTL Mode:</h2>
+						<div class="rtl-switcher">
+							<div class="rtlsw-btn ltr-rtlsw-btn" title="Left to right mode">LTR</div>
+							<div class="rtlsw-btn rtl-rtlsw-btn" title="Right to left mode">RTL</div>
+						</div>
+					</div>
+					<div class="demo-panel-block">
+						<h2 class="dp-heading">Color Switcher:</h2>
+						<div class="skin-switcher">
+							<a class="sksw-btn sksw-btn-default" href="javascript:chooseStyle('none', 60)" title="Default Skin"></a>
+							<a class="sksw-btn sksw-btn-red" href="javascript:chooseStyle('skin-red', 60)" data-class="tt-skin-red" title="Red Skin"></a>
+							<a class="sksw-btn sksw-btn-green" href="javascript:chooseStyle('skin-green', 60)" data-class="tt-skin-green" title="Green Skin"></a>
+							<a class="sksw-btn sksw-btn-blue" href="javascript:chooseStyle('skin-blue', 60)" data-class="tt-skin-blue" title="Blue Skin"></a>
+							<a class="sksw-btn sksw-btn-orange" href="javascript:chooseStyle('skin-orange', 60)" data-class="tt-skin-orange" title="Orange Skin"></a>
+							<a class="sksw-btn sksw-btn-purple" href="javascript:chooseStyle('skin-purple', 60)" data-class="tt-skin-purple" title="Purple Skin"></a>
+							<a class="sksw-btn sksw-btn-pink" href="javascript:chooseStyle('skin-pink', 60)" data-class="tt-skin-pink" title="Pink Skin"></a>
+							<a class="sksw-btn sksw-btn-brown" href="javascript:chooseStyle('skin-brown', 60)" data-class="tt-skin-brown" title="Brown Skin"></a>
+						</div>
+					</div>
+					<a class="demo-panel-btn" href="https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium" target="_blank" title="Buy This Theme Now!">Buy Now!</a>
+				</div>
+			</div>
+		</div>
 		<!-- END DEMO PANEL (FOR DEMO SITE ONLY!) -->
 
 
@@ -146,15 +192,40 @@
 					<div class="tt-menu-tools">
 						<ul>
 							<!-- Begin search -->
-					
+							<li>
+								<a href="#" class="tt-clobal-search-trigger"><i class="fas fa-search"></i></a>
+								<div class="tt-clobal-search">
+									<div class="tt-clobal-search-inner">
+										<span class="tt-clobal-search-title">Search</span>
+										<form id="tt-clobal-search-form" class="form-btn-inside" method="get" action="https://demo.themetorium.net/html/sepia/search-results.html">
+											<input type="text" id="tt-clobal-search-input" name="search" placeholder="Type your keywords ...">
+											<button type="submit"><i class="fas fa-search"></i></button>
+										</form>
+									</div> <!-- /.tt-clobal-search-inner -->
+									<div class="tt-clobal-search-close"><i class="tt-close-btn tt-close-light"></i></div>
+								</div> <!-- /.tt-clobal-search -->
+							</li>
 							<!-- End search -->
 
 							<!-- Begin tt-dropdown (languages) 
 							===================================
 							* Use class "tt-dropdown-dark" to enable dropdown dark style.
 							-->
-						
+							<li class="tt-dropdown-wrap tt-dropdown-master tt-dropdown-dark tt-dropdown-right tt-tools-lang">
+								<a href="#0"><img src="assets/img/flags/gb.png" alt="English"> EN</a>
+								<ul class="tt-dropdown">
+									<li><a href="#" title="English"><img src="assets/img/flags/gb.png" alt="English"> EN</a></li>
+									<li><a href="#" title="French"><img src="assets/img/flags/fr.png" alt="French"> FR</a></li>
+									<li><a href="#" title="Deutsch"><img src="assets/img/flags/de.png" alt="Deutsch"> DE</a></li>
+								</ul> <!-- /.tt-dropdown -->
+							</li>
+							<!-- End tt-dropdown -->
 
+							<!-- Begin call to action button -->
+							<li>
+								<a href="https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium" class="tt-tools-button" target="_blank">Buy<span class="hide-from-sm"> This Theme</span>!</a>
+							</li>
+							<!-- End call to action button -->
 						</ul>
 					</div>
 					<!-- End menu tools -->
@@ -465,14 +536,14 @@
 				* Use class "fade-out-scroll-3" to enable fade out effect if page scroll.
 				* Use class "hide-ph-image" to hide page header image without removing the code.
 				-->
-				<div class="page-header-image parallax-bg-3 bg-image" style="background-image: url(assets/img/falcon/f7.jpeg);">
-
+				<div class="page-header-image parallax-bg-3 bg-image" style="background-image: url(assets/img/misc/page-header-bg-2.jpg);">
+					
 					<!-- Element cover 
 					===================
 					* You can use prepared background transparent classes depends on brightness of your page header image. More info: file "helper.css".
 					-->
 					<div class="cover bg-transparent-5-dark"></div>
-
+					
 				</div>
 				<!-- End page header image -->
 
@@ -485,89 +556,29 @@
 					* Use class "parallax-1" up to "parallax-6" to enable parallax effect.
 					* Use class "fade-out-scroll-1" up to "fade-out-scroll-6" to enable fade out effect if page scroll.
 					-->
-					<div class="page-header-caption parallax-4 fade-out-scroll-4">
-						<div class="page-header-category"><a href="team.html">Players</a></div>
+					<div class="page-header-caption ph-caption-xlg parallax-5 fade-out-scroll-4">
+						<h1 class="page-header-title">Portfolio</h1>
+						<hr class="hr-short">
 												
 						<!-- Use data attributes to set text maximum characters or words (example: data-max-characters="120" or data-max-words="40") -->
 						<div class="page-header-description" data-max-words="40">
-							<p>Every player wants to play. That's pretty normal. Every player is unhappy when he's on the bench. That's pretty normal, too. But it's football: only 11 players can start, and the coach has his game plan for each game.
-								</p>
+							<p>Fusce imperdiet, arcu non tempor aliquam, justo tortor cursus est, sed facilisis eros purus et felis. Sed eros sapien, iaculis eget gravida euismod, dapibus vitae turpis. Pellentesque men egestas odio mi, vitae egestas massa elementum.</p>
 						</div>
-						
-						<!-- Begin modal trigger -->
-						<a href="#0" class="ph-more-info-trigger" data-toggle="modal" data-target="#modal-67230981"><span class="ph-more-info-trigger-icon"></span> Show More...</a>
-						<!-- End modal trigger -->
-
-						<!-- Begin modal 
-						=================
-						* Use class "modal-center" to enable modal center position (use for short content only!).
-						* Use class "modal-left" to enable left sidebar modal.
-						* Use class "modal-right" to enable right sidebar modal.
-						-->
-						<div id="modal-67230981" class="modal modal-left fade" tabindex="-1" role="dialog" aria-hidden="false">
-						   <div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="tt-close-btn"></i></button>
-										<h4 class="modal-title">Info:</h4>
-									</div> <!-- /.modal-header -->
-
-									<div class="modal-body">
-
-										<!-- Begin modal body image 
-										============================
-										* Use class "modal-body-image-1" or "modal-body-image-2" to set modal body image style.
-										-->
-										<div class="modal-body-image-1 bg-image" style="background-image: url(assets/img/falcon/f7.jpeg); background-position: 50% 50%;"></div>
-										<!-- End modal body image -->
-
-										<!-- Begin modal body content -->
-										<div class="modal-body-content">
-											
-											<!-- Begin tt-heading 
-											====================== 
-											* Use class "padding-on" to enable heading paddings (useful if you use tt-heading as stand alone element).
-											* Use class "text-center" or "text-right" to align tt-heading.
-											* Use classes "tt-heading-xs", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set tt-heading size.
-											-->
-											<div class="tt-heading tt-heading-lg">
-												<div class="tt-heading-inner">
-													<h1 class="tt-heading-title"></h1>
-													<!-- <div class="tt-heading-subtitle">Subtitle Here</div> -->
-													<!-- <hr class="hr-short"> -->
-												</div> <!-- /.tt-heading-inner -->
-											</div>
-											<!-- End tt-heading -->
-
-											<div class="margin-top-20">
-												<p>Below is a team of fully dedicated young players, they are the reason Falcons has been rising through all the odds and ranges to emerge as the best. </p>
-
-												<p>Every player wants to play. That's pretty normal. Every player is unhappy when he's on the bench. That's pretty normal, too. But it's football: only 11 players can start, and the coach has his game plan for each game.</p>
-												</div>
-
-											
-
-								</div> <!-- /.modal-content -->
-							</div> <!-- /.modal-dialog -->
-						</div>
-						<!-- End modal -->
 
 					</div>
 					<!-- End page header caption -->
 
-				</div>
+				</div> 
 				<!-- End page header inner -->
-
-			
 
 			</section>
 			<!-- End page header -->
 
 
-			<!-- ===================================
-			///// Begin gallery single section /////
-			==================================== -->
-			<section id="gallery-single-section">
+			<!-- =================================
+			///// Begin gallery list section /////
+			================================== -->
+			<section id="gallery-list-section">
 				<div class="isotope-wrap"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag! ) -->
 					
 					<!-- Begin isotope
@@ -575,19 +586,41 @@
 					* Use class "gutter-1", "gutter-2" or "gutter-3" to add more space between items.
 					* Use class "col-1", "col-2", "col-3", "col-4", "col-5" or "col-6" for columns.
 					-->
-					<div class="isotope col-4">
-
+					<div class="isotope col-3">
+						
 						<!-- Begin isotope top content -->
 						<div class="isotope-top-content">
 
-						
+							<!-- Begin isotope filter
+							==========================
+							* Use class "fi-to-button" to enable isotope filter button syle.
+							* Use class "fi-center" or "fi-right" to align filter ("fi-center"= no effect on "fi-to-button").
+							-->
+							<div class="isotope-filter fi-to-button fi-right">
+								<div class="isotope-filter-button">
+									<span class="ifb-icon"><i class="fas fa-sliders-h"></i></span>
+									<span class="ifb-icon-close"><i class="fas fa-times"></i></span> <!-- effect on small screens!) -->
+								</div>
+								<ul class="isotope-filter-links">
+									<li><a href="#" class="active" data-filter="*">Show All</a></li>
+									<li><a href="#" data-filter=".fashion">Fashion</a></li>
+									<li><a href="#" data-filter=".portraits">Portraits</a></li>
+									<li><a href="#" data-filter=".black-and-white">Black &amp; White</a></li>
+									<li><a href="#" data-filter=".outdoor">Outdoor</a></li>
+								</ul>
+							</div>
+							<!-- End isotope filter -->
+
+						</div>
 						<!-- End isotope top content -->
 
 						<!-- Begin isotope items wrap 
 						==============================
-						* Use classes "gsi-color", "gsi-zoom" or "gsi-simple" to change gallery single item cover variations.
+						* Use class "gli-alter-1", "gli-alter-2", "gli-alter-3", "gli-alter-4" or "gli-alter-5" to change gallery list item style.
+						* Use class "gli-dark" or "gli-colored" to enable colored hover overlay (effect only with default hover overlay and "gli-alter-4", "gli-alter-5" classes!).
+						* Use class "gli-frame" to enable image frames.
 						-->
-						<div id="gallery" class="isotope-items-wrap lightgallery gsi-color">
+						<div class="isotope-items-wrap gli-dark gli-alter-4">
 
 							<!-- Grid sizer (do not remove!!!) -->
 							<div class="grid-sizer"></div>
@@ -598,23 +631,54 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item outdoor iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f19.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f19.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>">
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f19.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-1.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">49</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">The Old Man Dreams</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Outdoor</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
+
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
@@ -624,25 +688,54 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item black-and-white iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f20.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f20.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f20.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-2.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">85</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">These Wonderful Freckles</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Black &amp; White</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
 
-						
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
@@ -652,25 +745,54 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item fashion iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f21.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f21.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f21.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-3.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
+										
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">7</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">Paris Fashion Week</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Fashion</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
 
-						
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
@@ -680,25 +802,54 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item outdoor iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f22.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f22.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f22.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-4.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">12</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+										
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">Afternoon Photoshoot</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Outdoor</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
 
-						
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
@@ -708,25 +859,54 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item portraits iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f24.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f24.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f23.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-5.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">96</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">Sit Back and Relax</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Portraits</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
 
-						
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
@@ -736,25 +916,54 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item fashion outdoor iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f25.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f25.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f25.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-6.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">56</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">Something In The Water vol.2</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Fashion</a>, <a href="albums-archive-fluid-2.html">Outdoor</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
 
-						
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
@@ -764,109 +973,54 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item outdoor iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f26.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f26.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f26.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-7.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">53</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">Autumn Nights</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Outdoor</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
 
-						
-
-							</div>
-							<!-- End isotope item -->
-
-						<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
-							<div class="isotope-item">
-
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f27.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f27.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
-
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f27.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
-
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
-
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
-									
-								</a>
-								<!-- End gallery single item -->
-
-						
-
-							</div>
-							<!-- End isotope item -->
-
-							<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
-							<div class="isotope-item">
-
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f28.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f28.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
-
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f28.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
-
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
-
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
-									
-								</a>
-								<!-- End gallery single item -->
-
-						
-
-							</div>
-							<!-- End isotope item -->
-
-						<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
-							<div class="isotope-item">
-
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f29.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f29.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
-
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f29.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
-
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
-
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
-									
-								</a>
-								<!-- End gallery single item -->
-
-						
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
@@ -876,25 +1030,54 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item fashion iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f30.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f30.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f30.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-8.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">71</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">Beauty &amp; Fashion</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Fashion</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
 
-						
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
@@ -904,80 +1087,54 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item black-and-white iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f31.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f31.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f31.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-9.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">68</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">No Colors This Time</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Black &amp; White</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
 
-						
-
-							</div>
-							<!-- End isotope item -->
-<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
-							<div class="isotope-item">
-
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f32.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f32.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
-
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f32.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
-
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
-
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
-									
-								</a>
-								<!-- End gallery single item -->
-
-						
-
-							</div>
-							<!-- End isotope item -->
-
-							<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
-							<div class="isotope-item">
-
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f33.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f33.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
-
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f33.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
-
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
-
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
-									
-								</a>
-								<!-- End gallery single item -->
-
-						
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
@@ -987,25 +1144,54 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item outdoor iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f34.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f34.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f34.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-10.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">32</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">Monday's Monochromes</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Outdoor</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
 
-						
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
@@ -1015,37 +1201,295 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item">
+							<div class="isotope-item fashion portraits iso-height-1">
 
-								<!-- Begin gallery single item -->
-								<a href="assets/img/falcon/players/f35.jpeg" class="gallery-single-item lg-trigger" data-exthumbnail="assets/img/falcon/players/f35.jpeg" data-sub-html="<p>Faith Wamalwa &nbsp; 1 &nbsp;----GoalKeeper</p>"
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
 
-									<!-- Begin gallery single item image -->
-									<img src="assets/img/falcon/players/f35.jpeg" class="gs-item-image" alt="">
-									<!-- End gallery single item image -->
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
 
-									<!-- Gallery single item image caption -->
-									<div class="gsi-image-caption">Faith Wamalwa</div>
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-11.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
 
-									<!-- Gallery single item icon -->
-									<div class="gs-item-icon"><p>1</p></div>
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">13</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
 									
-								</a>
-								<!-- End gallery single item -->
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">Something In The Water</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Fashion</a>, <a href="albums-archive-fluid-2.html">Portraits</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
 
-						
+								</div>
+								<!-- End gallery list item -->
 
 							</div>
 							<!-- End isotope item -->
 
-					
+							<!-- ===================== 
+							/// Begin isotope item ///
+							========================== 
+							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
+							-->
+							<div class="isotope-item outdoor fashion iso-height-1">
+
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
+
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
+
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-12.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
+
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">11</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
+									
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">Beautiful Bride</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Outdoor</a>, <a href="albums-archive-fluid-2.html">Fashion</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
+
+								</div>
+								<!-- End gallery list item -->
+
+							</div>
+							<!-- End isotope item -->
+
+							<!-- ===================== 
+							/// Begin isotope item ///
+							========================== 
+							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
+							-->
+							<div class="isotope-item outdoor fashion iso-height-1">
+
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
+
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
+
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-13.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
+
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">7</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
+									
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">My Super Awesome Album</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Outdoor</a>, <a href="albums-archive-fluid-2.html">Fashion</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
+
+								</div>
+								<!-- End gallery list item -->
+
+							</div>
+							<!-- End isotope item -->
+
+							<!-- ===================== 
+							/// Begin isotope item ///
+							========================== 
+							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
+							-->
+							<div class="isotope-item portraits iso-height-1">
+
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
+
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
+
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-14.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
+
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">23</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
+									
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">One Day Shoot With Ordinary People</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Portraits</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
+
+								</div>
+								<!-- End gallery list item -->
+
+							</div>
+							<!-- End isotope item -->
+
+							<!-- ===================== 
+							/// Begin isotope item ///
+							========================== 
+							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
+							-->
+							<div class="isotope-item outdoor iso-height-1">
+
+								<!-- Begin gallery list item -->
+								<div class="gallery-list-item">
+
+									<!-- Begin gallery list item image -->
+									<div class="gl-item-image-wrap">
+
+										<!-- Begin gallery list item image inner -->
+										<a href="gallery-single-grid-fluid-2.html" class="gl-item-image-inner">
+											<div class="gl-item-image bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-15.jpg); background-position: 50% 50%"></div>
+											
+											<span class="gl-item-image-zoom"></span>
+										</a>
+										<!-- End gallery list item image inner -->
+
+										<!-- Begin gallery list item meta -->
+										<ul class="gli-meta">
+											<li>
+												<!-- Begin favorite button -->
+												<div class="favorite-btn">
+													<div class="fav-inner">
+														<div class="icon-heart">
+															<span class="icon-heart-empty"></span>
+															<span class="icon-heart-filled"></span>
+														</div>
+													</div>
+													<div class="fav-count">6</div>
+												</div>
+												<!-- End favorite button -->
+											</li>
+										</ul>
+										<!-- End gallery list item meta -->
+
+									</div>
+									<!-- End gallery list item image -->
+									
+									<!-- Begin gallery list item info -->
+									<div class="gl-item-info">
+										<div class="gl-item-caption">
+											<h2 class="gl-item-title"><a href="gallery-single-grid-fluid-2.html">The Beauty of Nature</a></h2>
+											<span class="gl-item-category"><a href="albums-archive-fluid-2.html">Outdoor</a></span>
+										</div>
+									</div>
+									<!-- End gallery list item info -->
+
+								</div>
+								<!-- End gallery list item -->
+
+							</div>
+							<!-- End isotope item -->
+
+						</div>
+						<!-- End isotope items wrap -->
 
 
 						<!-- Begin isotope pagination 
 						============================== -->
 						<!-- <div class="isotope-pagination">
 							<div class="iso-load-more">
-								<a class="btn btn-dark-bordered btn-lg" href="#">View More <i class="fas fa-refresh"></i></a>
+								<a class="btn btn-dark-bordered btn-lg" href="">View More <i class="fas fa-refresh"></i></a>
 							</div>
 						</div> -->
 						<!-- End isotope pagination -->
@@ -1055,213 +1499,7 @@
 
 				</div> <!-- /.isotope-wrap -->
 			</section>
-			<!-- End gallery single section -->
-
-
-			<!-- ==================================
-			///// Begin more projects cection /////
-			=================================== -->
-			<section id="more-projects-section">
-
-				<!-- Begin tt-heading 
-				====================== 
-				* Use class "padding-on" to enable heading paddings (useful if you use tt-heading as stand alone element).
-				* Use class "text-center" or "text-right" to align tt-heading.
-				* Use classes "tt-heading-xs", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set tt-heading size.
-				-->
-				<div class="tt-heading padding-on text-center bg-gray-3">
-					<div class="tt-heading-inner tt-wrap"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag! ) -->
-						<h1 class="tt-heading-title">Winning Moments</h1>
-						<div class="tt-heading-subtitle">Full team and Game Kits</div>
-						<hr class="hr-short">
-					</div> <!-- /.tt-heading-inner -->
-				</div>
-				<!-- End tt-heading -->
-
-				<div class="more-projects-inner"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag! ) -->
-
-					<!-- Begin project carousel 
-					============================ -->
-					<div class="project-carousel">
-
-						<!-- Begin content carousel (https://owlcarousel2.github.io/OwlCarousel2/)
-						====================================================================
-						* Use class "nav-outside" for outside nav (requires boxed layout).
-						* Use class "nav-outside-top" for outside top nav (requires enough space at the top of the carousel).
-						* Use class "nav-bottom-right" for bottom right nav.
-						* Use class "nav-rounded" for rounded nav.
-						* Use class "nav-light" to enable nav light style.
-						* Use class "dots-outside" for outside dots (requires enough space at the bottom of the carousel).
-						* Use class "dots-left", "dots-right" or "dots-center-right" to align dots.
-						* Use class "dots-rounded" for rounded dots.
-						* Use class "owl-mousewheel" to enable mousewheel support.
-						* Use class "cursor-grab" to enable cursor grab icon (no effect on links!).
-						* Use class "cc-hover-light", "cc-hover-dark" or "cc-hover-zoom" to enable carousel items hover effect.
-						* Use class "cc-height-1", "cc-height-2", "cc-height-3", "cc-height-4", "cc-height-5", "cc-height-6" or "cc-height-full" to set carousel height (do not use with data-autoheight="true"!!!).
-						* Use class "cc-height-m" to set full height for small screens (do not use with data-autoheight="true"!!!).
-						================================================================
-						* Available carousel data attributes:
-								data-items="5".......................(items visible on desktop)
-								data-tablet-landscape="4"............(items visible on mobiles)
-								data-tablet-portrait="3".............(items visible on mobiles)
-								data-mobile-landscape="2"............(items visible on tablets)
-								data-mobile-portrait="1".............(items visible on tablets)
-								data-loop="true".....................(true/false)
-								data-margin="10".....................(space between items)
-								data-center="true"...................(true/false)
-								data-start-position="0"..............(item start position)
-								data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
-								data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
-								data-mouse-drag="false"..............(true/false)
-								data-touch-drag="false"..............(true/false)
-								data-autoheight="true"...............(true/false)
-								data-autoplay="true".................(true/false)
-								data-autoplay-timeout="5000".........(milliseconds)
-								data-autoplay-hover-pause="true".....(true/false)
-								data-autoplay-speed="800"............(milliseconds)
-								data-drag-end-speed="800"............(milliseconds)
-								data-nav="true"......................(true/false)
-								data-nav-speed="800".................(milliseconds)
-								data-dots="false"....................(true/false)
-								data-dots-speed="800"................(milliseconds)
-						-->
-						<div class="owl-carousel cc-height-1 cc-hover-dark nav-outside-top" data-items="3" data-margin="0" data-dots="false" data-nav="true" data-nav-speed="800" data-mobile-portrait="1" data-tablet-landscape="3" data-tablet-portrait="2" data-mobile-landscape="1" data-mobile-portrait="1">
-
-							<!-- Begin carousel item 
-							========================= -->
-							<a href="#" class="cc-item">
-
-								<!-- cc image -->
-								<div class="cc-image full-cover bg-image" style="background-image: url(assets/img/falcon/fn30.jpg);"></div>
-
-								<!-- Begin caption 
-								===================
-								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-								* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xlg", "cc-caption-xxlg".
-								-->
-								<div class="cc-caption center max-width-400"> <!-- max width class is optional -->
-									<h2 class="cc-title">safaricom championship</h2>
-									<div class="cc-category"><span>match 8</span></div>
-								</div>
-								<!-- End caption -->
-
-							</a>
-							<!-- End carousel item -->
-
-							<!-- Begin carousel item 
-							========================= -->
-							<a href="#" class="cc-item">
-
-								<!-- cc image -->
-								<div class="cc-image full-cover bg-image" style="background-image: url(assets/img/falcon/f67.jpeg);"></div>
-
-								<!-- Begin caption 
-								===================
-								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-								* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xlg", "cc-caption-xxlg".
-								-->
-								<div class="cc-caption center max-width-400"> <!-- max width class is optional -->
-									<h2 class="cc-title">Team B</h2>
-									<div class="cc-category"><span>Match 4</span></div>
-								</div>
-								<!-- End caption -->
-
-							</a>
-							<!-- End carousel item -->
-
-							<!-- Begin carousel item 
-							========================= -->
-							<a href="#" class="cc-item">
-
-								<!-- cc image -->
-								<div class="cc-image full-cover bg-image" style="background-image: url(assets/img/falcon/f74.jpeg);"></div>
-
-								<!-- Begin caption 
-								===================
-								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-								* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xlg", "cc-caption-xxlg".
-								-->
-								<div class="cc-caption center max-width-400">
-									<h2 class="cc-title">Women League one champions</h2>
-									<div class="cc-category"><span>2017</span></div>
-								</div>
-								<!-- End caption -->
-
-							</a>
-							<!-- End carousel item -->
-
-							<!-- Begin carousel item 
-							========================= -->
-							<a href="#" class="cc-item">
-
-								<!-- cc image -->
-								<div class="cc-image full-cover bg-image" style="background-image: url(assets/img/falcon/fn33.jpg);"></div>
-
-								<!-- Begin caption 
-								===================
-								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-								* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xlg", "cc-caption-xxlg".
-								-->
-								<div class="cc-caption center max-width-400"> <!-- max width class is optional -->
-									<h2 class="cc-title">Safaricom Championship</h2>
-									<div class="cc-category"><span>safaricom</span></div>
-								</div>
-								<!-- End caption -->
-
-							</a>
-							<!-- End carousel item -->
-
-							<!-- Begin carousel item 
-							========================= -->
-							<a href="#" class="cc-item">
-
-								<!-- cc image -->
-								<div class="cc-image full-cover bg-image" style="background-image: url(assets/img/falcon/fn28.jpg);"></div>
-
-								<!-- Begin caption 
-								===================
-								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-								* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xlg", "cc-caption-xxlg".
-								-->
-								<div class="cc-caption center max-width-400"> <!-- max width class is optional -->
-									<h2 class="cc-title">Away Kit</h2>
-									<div class="cc-category"><span>match 6</span></div>
-								</div>
-								<!-- End caption -->
-
-							</a>
-							<!-- End carousel item -->
-
-							<!-- Begin carousel item 
-							========================= -->
-							<a href="#" class="cc-item">
-
-								<!-- cc image -->
-								<div class="cc-image full-cover bg-image" style="background-image: url(assets/img/falcon/fn29.jpg);"></div>
-
-								<!-- Begin caption 
-								===================
-								* Position classes: "top-left", "top-center", "top-right", "center-left", "center", "center-right", "bottom-left", "bottom-center", "bottom-right". 
-								* Size classes: "cc-caption-xs", "cc-caption-sm", "cc-caption-lg", "cc-caption-xlg", "cc-caption-xxlg".
-								-->
-								<div class="cc-caption center max-width-400"> <!-- max width class is optional -->
-									<h2 class="cc-title">Training</h2>
-									<div class="cc-category"><span>session 1</span></div>
-								</div>
-								<!-- End caption -->
-
-							</a>
-							<!-- End carousel item -->
-
-						</div>
-						<!-- End content carousel -->
-
-					</div>
-					<!-- End project carousel -->
-
-				</div> <!-- /.more-projects-inner -->
-			</section>
-			<!-- End more projects cection -->
+			<!-- End gallery list section -->
 
 
 			<!-- ===========================
@@ -1277,7 +1515,7 @@
 							<div class="col-md-3">
 
 								<!-- Begin footer logo -->
-								<div id="footer-logo" >
+								<div id="footer-logo">
 									<a href="index.html" class="logo-dark"><img src="assets/img/logo.png" alt="logo"></a>
 									<a href="index.html" class="logo-light"><img src="assets/img/logo.png" alt="logo"></a>
 
@@ -1293,8 +1531,8 @@
 
 								<!-- Begin footer text -->
 								<div class="footer-text">
-									<h4>- Kitale Queens</h4>
-									Football is like life - it requires perseverance, self-denial, hard work, sacrifice, dedication and respect for authority.
+									<h4>- Creative Photo Studio</h4>
+									Sed non auctor magna. Nunc eu ultrices orci. Donec commodo ligula in massa ultricies volutpat. Fusce vel cursus lectus. Cras commodo odio mi, eu cursus nibh iaculis ut.
 								</div>
 								<!-- End footer text -->
 
@@ -1305,14 +1543,24 @@
 								<!-- Begin social buttons -->
 								<div class="social-buttons">
 									<ul>
-										<li><a href="#" class="btn btn-social-min btn-default btn-rounded-full" title="Follow us on Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#" class="btn btn-social-min btn-default btn-rounded-full" title="Follow us on Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#" class="btn btn-social-min btn-default btn-rounded-full" title="Follow us on Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="https://www.facebook.com/themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="https://twitter.com/Themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="https://plus.google.com/+SiiliOnu" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Google+" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+										<li><a href="https://www.pinterest.com/themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Pinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+										<li><a href="https://dribbble.com/Themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Dribbble" target="_blank"><i class="fab fa-dribbble"></i></a></li>
 										<li><a href="contact.html" class="btn btn-social-min btn-default btn-rounded-full" title="Drop me a line" target="_blank"><i class="fas fa-envelope"></i></a></li>
 									</ul>
 								</div>
 								<!-- End social buttons -->
 
+								<!-- Begin footer subscribe form -->
+								<form id="footer-subscribe-form" class="form-btn-inside">
+									<div class="form-group">
+										<input type="email" class="form-control no-bg" id="footer-subscribe" name="subscribe" placeholder="Subscribe. Enter your email address..." required="">
+										<button type="submit"><i class="fas fa-paper-plane"></i></button>
+									</div>
+								</form>
+								<!-- End footer subscribe form -->
 
 							</div> <!-- /.col -->
 
@@ -1341,7 +1589,8 @@
 
 									<!-- Begin footer copyright -->
 									<div class="footer-copyright">
-										<p>&copy; Falcons 2019 / All rights reserved</p>
+										<p>&copy; Sepia 2017 / All rights reserved</p>
+										<p>Design by: <a href="https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium" target="_blank">Themetorium</a></p>
 									</div>
 									<!-- End footer copyright -->
 
@@ -1417,5 +1666,5 @@
 	</body>
 
 
-<!-- Mirrored from demo.themetorium.net/html/sepia/gallery-single-grid-fluid-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jul 2019 14:19:12 GMT -->
+<!-- Mirrored from demo.themetorium.net/html/sepia/albums-grid-fluid-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jul 2019 14:14:19 GMT -->
 </html>
