@@ -8,11 +8,11 @@
 
 <html lang="en">
 	
-<!-- Mirrored from demo.themetorium.net/html/sepia/contact-fluid.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jul 2019 14:21:15 GMT -->
+<!-- Mirrored from demo.themetorium.net/html/sepia/gallery-single-carousel-center.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jul 2019 14:17:29 GMT -->
 <head>
 
 		<!-- Title -->
-		<title>Contact - Sepia - Photography Portfolio HTML Website Template</title>
+		<title>The Coolest Photo Gallery I've Ever Created / Sepia - Photography Portfolio HTML Website Template</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
@@ -96,7 +96,7 @@
 	* Use class "animsition" to enable page transition while page loads.
 	* Use class "tt-boxed" to enable page boxed layout globally (affects all elements containing class "tt-wrap").
 	-->
-	<body id="body" class="animsition tt-boxed">
+	<body id="body" class="animsition">
 
 
 		<!-- BEGIN DEMO PANEL (FOR DEMO SITE ONLY!) -->
@@ -159,7 +159,7 @@
 		* Use class "menu-align-right" to align menu to right.
 		* Use class "menu-align-center" to align menu to center (do not use with header classes!).
 		-->
-		<header id="header" class="header-show-hide-on-scroll menu-align-right">
+		<header id="header" class="menu-align-right">
 
 			<!-- Begin header inner -->
 			<div class="header-inner tt-wrap"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag! ) -->
@@ -522,285 +522,383 @@
 		<div id="body-content">
 
 
-			<!-- ============================
-			///// Begin contact section /////
-			============================= -->
-			<section id="contact-section">
-				<div class="contact-section-inner"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag! ) -->
-					
-					<!-- ======================
-					///// Begin split box /////
-					based on: http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
-					======================= -->
-					<div class="split-box">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="row-lg-height full-height-vh">
+			<!-- ===================================
+			///// Begin gallery single section /////
+			==================================== -->
+			<section id="gallery-single-section" class="gallery-single-carousel gs-carousel-center">
 
-									<!-- Column -->
-									<div class="col-lg-6 col-lg-height col-lg-middle bg-image" style="background-image: url(assets/img/misc/contact-bg.jpg); background-position: 50% 50%;">
+				<!-- Begin page background (usually the same as gallery featured image) -->
+				<div class="page-background bg-image" style="background-image: url(assets/img/misc/page-bg-1.jpg);"></div>
+				<!-- End page background -->
 
-										<!-- Element cover -->
-										<div class="cover bg-transparent-0-5-dark"></div>
+				<div class="gallery-single-carousel-inner tt-wrap"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag! ) -->
+					<div class="gs-carousel-wrap">
 
-										<!-- Begin split box content -->
-										<div class="split-box-content text-left no-padding-left no-padding-right">
+						<!-- Begin content carousel (https://owlcarousel2.github.io/OwlCarousel2/)
+						====================================================================
+						* Use class "nav-outside" for outside nav (requires boxed layout).
+						* Use class "nav-outside-top" for outside top nav (requires enough space at the top of the carousel).
+						* Use class "nav-bottom-right" for bottom right nav.
+						* Use class "nav-rounded" for rounded nav.
+						* Use class "nav-light" to enable nav light style.
+						* Use class "dots-outside" for outside dots (requires enough space at the bottom of the carousel).
+						* Use class "dots-left", "dots-right" or "dots-center-right" to align dots.
+						* Use class "dots-rounded" for rounded dots.
+						* Use class "owl-mousewheel" to enable mousewheel support.
+						* Use class "cursor-grab" to enable cursor grab icon (no effect on links!).
+						* Use class "cc-hover-light", "cc-hover-dark" or "cc-hover-zoom" to enable carousel items hover effect.
+						* Use class "cc-height-1", "cc-height-2", "cc-height-3", "cc-height-4", "cc-height-5", "cc-height-6" or "cc-height-full" to set carousel height (do not use with data-autoheight="true"!!!).
+						* Use class "cc-height-m" to set full height for small screens (do not use with data-autoheight="true"!!!).
+						====================================================================
+						* Available carousel data attributes:
+								data-items="5".......................(items visible on desktop)
+								data-tablet-landscape="4"............(items visible on mobiles)
+								data-tablet-portrait="3".............(items visible on mobiles)
+								data-mobile-landscape="2"............(items visible on tablets)
+								data-mobile-portrait="1".............(items visible on tablets)
+								data-loop="true".....................(true/false)
+								data-margin="10".....................(space between items)
+								data-center="true"...................(true/false)
+								data-start-position="0"..............(item start position)
+								data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
+								data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
+								data-mouse-drag="false"..............(true/false)
+								data-touch-drag="false"..............(true/false)
+								data-autoheight="true"...............(true/false)
+								data-autoplay="true".................(true/false)
+								data-autoplay-timeout="5000".........(milliseconds)
+								data-autoplay-hover-pause="true".....(true/false)
+								data-autoplay-speed="800"............(milliseconds)
+								data-drag-end-speed="800"............(milliseconds)
+								data-nav="true"......................(true/false)
+								data-nav-speed="800".................(milliseconds)
+								data-dots="false"....................(true/false)
+								data-dots-speed="800"................(milliseconds)
+						-->
+						<div class="owl-carousel lightgallery cc-height-full owl-mousewheel nav-light cc-hover-light" data-items="3" data-center="true" data-margin="80" data-autowidth="true" data-loop="true" data-nav="true" data-nav-speed="800" data-dots="false">
 
-											<!-- Begin contact info -->
-											<div class="contact-info-wrap">
-												<div class="contact-info">
-													<p><i class="fas fa-home"></i> address: 121 King Street, Melbourne, Australia</p>
-													<p><i class="fas fa-phone"></i> phone: +123 456 789 000</p>
-													<p><i class="fas fa-envelope"></i> email: <a href="mailto:company@email.com" target="_blank">company@email.com</a></p>
+							<!-- Begin carousel item 
+							========================= -->
+							<a href="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-1.jpg" class="cc-item lg-trigger" data-exthumbnail="assets/img/gallery/gallery-single/auto-width/thumb/gallery-auto-width-thumb-1.jpg" data-sub-html="<p>Yes, you can use image captions :)</p>">
+
+								<!-- cc auto width img -->
+								<img class="cc-image cc-auto-width-img" src="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-1.jpg" alt="">
+
+								<!-- cc auto width img for small devices -->
+								<div class="cc-image cc-auto-width-img-bg bg-image" style="background-image: url(assets/img/gallery/gallery-single/auto-width/gallery-auto-width-1.jpg);"></div>
+
+								<!-- Gallery single item image caption -->
+								<div class="gsi-image-caption">Yes, you can use image captions :)</div>
+
+							</a>
+							<!-- End carousel item -->
+
+							<!-- Begin carousel item 
+							========================= -->
+							<a href="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-2.jpg" class="cc-item lg-trigger" data-exthumbnail="assets/img/gallery/gallery-single/auto-width/thumb/gallery-auto-width-thumb-2.jpg">
+
+								<!-- cc auto width img -->
+								<img class="cc-image cc-auto-width-img" src="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-2.jpg" alt="">
+
+								<!-- cc auto width img for small devices -->
+								<div class="cc-image cc-auto-width-img-bg bg-image" style="background-image: url(assets/img/gallery/gallery-single/auto-width/gallery-auto-width-2.jpg);"></div>
+
+							</a>
+							<!-- End carousel item -->
+
+							<!-- Begin carousel item 
+							========================= -->
+							<a href="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-3.jpg" class="cc-item lg-trigger" data-exthumbnail="assets/img/gallery/gallery-single/auto-width/thumb/gallery-auto-width-thumb-3.jpg" data-sub-html="<p>You can use a little longer image captions as well. Pellentesque men egestas odio mi, vitae egestas massa elementum utesa.</p>">
+
+								<!-- cc auto width img -->
+								<img class="cc-image cc-auto-width-img" src="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-3.jpg" alt="">
+
+								<!-- cc auto width img for small devices -->
+								<div class="cc-image cc-auto-width-img-bg bg-image" style="background-image: url(assets/img/gallery/gallery-single/auto-width/gallery-auto-width-3.jpg);"></div>
+
+								<!-- Gallery single item image caption -->
+								<div class="gsi-image-caption">You can use a little longer image captions as well. Pellentesque men egestas odio mi, vitae egestas massa elementum utesa.</div>
+
+							</a>
+							<!-- End carousel item -->
+
+							<!-- Begin carousel item 
+							========================= -->
+							<a href="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-4.jpg" class="cc-item lg-trigger" data-exthumbnail="assets/img/gallery/gallery-single/auto-width/thumb/gallery-auto-width-thumb-4.jpg">
+
+								<!-- cc auto width img -->
+								<img class="cc-image cc-auto-width-img" src="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-4.jpg" alt="">
+
+								<!-- cc auto width img for small devices -->
+								<div class="cc-image cc-auto-width-img-bg bg-image" style="background-image: url(assets/img/gallery/gallery-single/auto-width/gallery-auto-width-4.jpg);"></div>
+
+							</a>
+							<!-- End carousel item -->
+
+							<!-- Begin carousel item 
+							========================= -->
+							<a href="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-5.jpg" class="cc-item lg-trigger" data-exthumbnail="assets/img/gallery/gallery-single/auto-width/thumb/gallery-auto-width-thumb-5.jpg">
+
+								<!-- cc auto width img -->
+								<img class="cc-image cc-auto-width-img" src="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-5.jpg" alt="">
+
+								<!-- cc auto width img for small devices -->
+								<div class="cc-image cc-auto-width-img-bg bg-image" style="background-image: url(assets/img/gallery/gallery-single/auto-width/gallery-auto-width-5.jpg);"></div>
+
+							</a>
+							<!-- End carousel item -->
+
+							<!-- Begin carousel item (video). You can add your "Youtube" or "Vimeo" video link.
+							================================= -->
+							<a href="https://vimeo.com/20047720" class="cc-item gs-carousel-item lg-trigger" data-sub-html="<p>Yes, you can use video captions. :)</p>">
+
+								<!-- Video play icon -->
+								<div class="video-play-icon"></div>
+
+								<!-- cc auto width img -->
+								<img class="cc-image cc-auto-width-img" src="assets/img/gallery/gallery-single/auto-width/gallery-auto-width-6.jpg" alt="">
+
+								<!-- cc auto width img for small devices -->
+								<div class="cc-image cc-auto-width-img-bg bg-image" style="background-image: url(assets/img/gallery/gallery-single/auto-width/gallery-auto-width-6.jpg);"></div>
+
+								<!-- Gallery single item image caption -->
+								<div class="gsi-image-caption">Yes, you can use video captions. :)</div>
+
+							</a>
+							<!-- End carousel item -->
+
+						</div>
+						<!-- End content carousel -->
+
+
+						<!-- Begin gallery meta 
+						======================== -->
+						<ul class="gallery-meta">
+							<li>
+								<a href="albums-carousel-no-crop.html" class="gm-go-back" title="Back to albums">
+									<i class="fas fa-th"></i>
+								</a>
+							</li>
+							<li>
+								<!-- Begin modal trigger -->
+								<div class="content-modal-trigger">
+									<a href="#0" class="content-modal-icon" title="Info" data-toggle="modal" data-target="#modal-78431234">
+										<i class="fas fa-info-circle"></i>
+									</a>
+								</div>
+								<!-- End modal trigger -->
+
+								<!-- Begin modal 
+								=================
+								* Use class "modal-center" to enable modal center position (use for short content only!).
+								* Use class "modal-left" to enable left sidebar modal.
+								* Use class "modal-right" to enable right sidebar modal.
+								-->
+								<div id="modal-78431234" class="modal modal-left fade" tabindex="-1" role="dialog" aria-hidden="false">
+								   <div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="tt-close-btn"></i></button>
+												<h4 class="modal-title">Info:</h4>
+											</div> <!-- /.modal-header -->
+
+											<div class="modal-body">
+
+												<!-- Begin modal body image 
+												============================
+												* Use class "modal-body-image-1" or "modal-body-image-2" to set modal body image style.
+												-->
+												<div class="modal-body-image-1 bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-6.jpg); background-position: 50% 50%;"></div>
+												<!-- End modal body image -->
+
+												<!-- Begin modal body content -->
+												<div class="modal-body-content">
+													
+													<!-- Begin tt-heading 
+													====================== 
+													* Use class "padding-on" to enable heading paddings (useful if you use tt-heading as stand alone element).
+													* Use class "text-center" or "text-right" to align tt-heading.
+													* Use classes "tt-heading-xs", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set tt-heading size.
+													-->
+													<div class="tt-heading tt-heading-lg">
+														<div class="tt-heading-inner">
+															<h1 class="tt-heading-title">The Coolest Photo Project I've Ever Created</h1>
+															<!-- <div class="tt-heading-subtitle">Subtitle Here</div> -->
+															<!-- <hr class="hr-short"> -->
+														</div> <!-- /.tt-heading-inner -->
+													</div>
+													<!-- End tt-heading -->
+
+													<div class="margin-top-20">
+														<p>Integer viverra arcu ac facilisis interdum. Proin dignissim sagittis tellus. Duis et pharetra est, vel ullamcorper libero. Fusce sed leo in dolor ornare fermentum. Sed facilisis eu justo at mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue malesuada eros, ut varius metus accumsan non. Pellentesque facilisis tortor risus, quis convallis nunc faucibus et. Proin egestas pulvinar sem, sit amet auctor ligula faucibus quis. Maecenas in libero nec turpis molestie dictum. Suspendisse id mi eget mi suscipit faucibus vitae eu metus.</p>
+
+														<p>Integer accumsan iaculis pharetra. Curabitur ultricies ut justo at hendrerit. Sed quis condimentum dui. In ac nunc leo. Quisque erat sem, consequat at rutrum at, ultricies nec sapien. Sed hendrerit libero augue, sit amet ultricies urna tincidunt at. In hac habitasse platea dictumst. Vivamus et sem nec velit scelerisque molestie. Suspendisse tempus posuere venenatis.</p>
+													</div>
+
+													<a href="https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium" class="btn btn-primary" target="_blank">Buy this theme!</a>
+
+													<!-- Begin social buttons share -->
+													<div class="social-buttons margin-top-40">
+														<ul>
+															<li><strong>Share:</strong> </li>
+															<li><a href="#" class="btn btn-social-min btn-facebook btn-sm btn-rounded-full" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a></li>
+															<li><a href="#" class="btn btn-social-min btn-twitter btn-sm btn-rounded-full" title="Share on Twitter"><i class="fab fa-twitter"></i></a></li>
+															<li><a href="#" class="btn btn-social-min btn-google btn-sm btn-rounded-full" title="Share on Google+"><i class="fab fa-google-plus-g"></i></a></li>
+															<li><a href="#" class="btn btn-social-min btn-pinterest btn-sm btn-rounded-full" title="Share on Pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+														</ul>
+													</div>
+													<!-- End social buttons share -->
+
 												</div>
+												<!-- End modal body content -->
 
-												<!-- Begin social buttons -->
-												<div class="social-buttons margin-top-20">
-													<ul>
-														<li><a href="https://www.facebook.com/themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-														<li><a href="https://twitter.com/Themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
-														<li><a href="https://plus.google.com/+SiiliOnu" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Google+" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-														<li><a href="https://www.pinterest.com/themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Pinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
-														<li><a href="https://dribbble.com/Themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Dribbble" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-													</ul>
+											</div> <!-- /.modal-body -->
+
+											<div class="modal-footer">
+												&copy; Sepia 2017 / All rights reserved
+											</div> <!-- /.modal-footer -->
+
+										</div> <!-- /.modal-content -->
+									</div> <!-- /.modal-dialog -->
+								</div>
+								<!-- End modal -->
+							</li>
+							<li>
+								<!-- Begin content share trigger  -->
+								<div class="content-share-trigger">
+									<a href="#0" class="content-share-icon" title="Share this gallery" data-toggle="modal" data-target="#modal-67306173">
+										<i class="fas fa-share-alt"></i>
+									</a>
+								</div>
+								<!-- End content share trigger -->
+
+								<!-- Begin modal 
+								=================
+								* Use class "modal-center" to enable modal center position (use for short content only!).
+								* Use class "modal-left" to enable left sidebar modal.
+								* Use class "modal-right" to enable right sidebar modal.
+								-->
+								<div id="modal-67306173" class="modal modal-center fade" tabindex="-1" role="dialog" aria-hidden="false">
+								   <div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="tt-close-btn"></i></button>
+												<h4 class="modal-title">Share This Gallery:</h4>
+											</div> <!-- /.modal-header -->
+
+											<div class="modal-body">
+
+												<!-- Begin modal body image 
+												============================
+												* Use class "modal-body-image-1" or "modal-body-image-2" to set modal body image style.
+												-->
+												<div class="modal-body-image-1 bg-image" style="background-image: url(assets/img/gallery/gallery-list/gallery-list-6.jpg); background-position: 50% 50%;"></div>
+												<!-- End modal body image -->
+
+												<!-- Begin modal body content -->
+												<div class="modal-body-content">
+
+													<!-- Begin modal share -->
+													<div class="modal-share">
+
+														<!-- Begin social buttons -->
+														<div class="social-buttons">
+															<ul>
+																<li><a href="#0" class="btn btn-social-min btn-facebook btn-rounded-full" title="Share on facebook"><i class="fab fa-facebook-f"></i></a></li>
+																<li><a href="#0" class="btn btn-social-min btn-twitter btn-rounded-full" title="Share on twitter"><i class="fab fa-twitter"></i></a></li>
+																<li><a href="#0" class="btn btn-social-min btn-google btn-rounded-full" title="Share on google+"><i class="fab fa-google-plus-g"></i></a></li>
+																<li><a href="#0" class="btn btn-social-min btn-pinterest btn-rounded-full" title="Share on pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+															</ul>
+														</div>
+														<!-- End social buttons -->
+
+														<!-- modal share grab link -->
+														<input class="grab-link" type="text" readonly="" value="https://yoursite.com/your-gallery-link/" onclick="this.select()">
+
+													</div>
+													<!-- End modal share -->
+
 												</div>
-												<!-- End social buttons -->
+												<!-- End modal body content -->
 
-											</div>
-											<!-- End contact info -->
+											</div> <!-- /.modal-body -->
 
+											<div class="modal-footer">
+												&copy; Sepia 2017 / All rights reserved
+											</div> <!-- /.modal-footer -->
+
+										</div> <!-- /.modal-content -->
+									</div> <!-- /.modal-dialog -->
+								</div>
+								<!-- End modal -->
+							</li>
+							<li>
+								<!-- Begin favorite button -->
+								<div class="favorite-btn">
+									<div class="fav-inner">
+										<div class="icon-heart">
+											<span class="icon-heart-empty"></span>
+											<span class="icon-heart-filled"></span>
 										</div>
-										<!-- End split box content -->
+									</div>
+									<div class="fav-count">47</div>
+								</div>
+								<!-- End favorite button -->
+							</li>
+						</ul>
+						<!-- End gallery meta -->
 
-									</div> <!-- /.col -->
-
-									<!-- Column -->
-									<div class="col-lg-6 col-lg-height col-lg-middle no-padding">
-
-										<!-- Begin split box content -->
-										<div class="split-box-content">
-
-											<!-- Begin contact form 
-											========================= -->
-											<form id="contact-form">
-												<div class="contact-form-inner text-left">
-
-													<div class="contact-form-info">
-
-														<!-- Begin tt-heading 
-														====================== 
-														* Use class "padding-on" to enable heading paddings (useful if you use tt-heading as stand alone element).
-														* Use class "text-center" or "text-right" to align tt-heading.
-														* Use classes "tt-heading-xs", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set tt-heading size.
-														-->
-														<div class="tt-heading">
-															<div class="tt-heading-inner">
-																<h1 class="tt-heading-title">Drop Me a Line</h1>
-																<!-- <div class="tt-heading-subtitle">Subtitle Here</div> -->
-																<hr class="hr-short">
-															</div> <!-- /.tt-heading-inner -->
-														</div>
-														<!-- End tt-heading -->
-
-														<div class="margin-top-30">
-															<p>Sollicitudin diam vitae, amet lacus donec eu, donec vulputate duis nullam nulla, suscipit nulla orci, ornare maecenas eget gravida. Curae sollicitudin lobortis.</p>
-														</div>
-
-													</div>
-
-													<!-- Begin hidden required fields (https://github.com/agragregra/uniMail) -->
-													<input type="hidden" name="project_name" value="yourwebsiteaddress.com"> <!-- Change value to your site name -->
-													<input type="hidden" name="admin_email" value="your@email.com"> <!-- Change value to your valid email address (where a message will be sent) -->
-													<input type="hidden" name="form_subject" value="Message from yourwebsiteaddress.com"> <!-- Change value to your own message subject -->
-													<!-- End Hidden Required Fields -->
-
-													<div class="row">
-														<div class="col-lg-6">
-															<div class="form-group">
-																<input type="text" class="form-control" name="name" placeholder="Your Name" required>
-															</div>
-														</div>
-														<div class="col-lg-6">
-															<div class="form-group">
-																<input type="email" class="form-control" name="email" placeholder="Your Email" required>
-															</div>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-lg-12">
-															<div class="form-group">
-																<input type="text" class="form-control" name="subject" placeholder="Subject" required>
-															</div>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-lg-12">
-															<div class="form-group">
-																<select class="form-control" name="option" required>
-																	<option value="" disabled selected>Select an option</option>
-																	<option value="Say Hello">Say hello</option>
-																	<option value="New Project">New project</option>
-																	<option value="Feedback">Feedback</option>
-																	<option value="Other">Other</option>
-																</select>
-															</div>
-														</div>
-													</div>
-													<div class="row">
-														<div class="col-lg-12">
-															<div class="form-group">
-																<textarea class="form-control" name="message" rows="4" placeholder="Your Message" required></textarea>
-															</div>
-														</div>
-													</div>
-
-													<div class="small text-gray"><em>* All fields are required!</em></div>
-
-												</div> <!-- /.contact-form-inner -->
-
-												<div class="row">
-													<div class="col-lg-12">
-														<button type="submit" class="btn btn-primary btn-lg margin-top-40">Send Message</button>
-													</div>
-												</div>
-											</form>
-											<!-- End contact form -->
-
-										</div>
-										<!-- End split box content -->
-
-									</div> <!-- /.col -->
-								</div> <!-- /.row-height -->
-							</div> <!-- /.row -->
-
-							<div class="row">
-								<div class="col-lg-12 no-padding">
-
-									<!-- Begin custom Google Map 
-									=============================
-									* Tutorial: https://developers.google.com/maps/documentation/javascript/tutorial
-									* Styles: https://snazzymaps.com/
-									-->
-									<div id="map"></div>
-									<!-- End custom Google Map -->
-
-								</div> <!-- /.col -->
-							</div> <!-- /.row -->
-							
-						</div> <!-- /.container -->
-					</div>
-					<!-- End split box -->
-
-				</div> <!-- /.contact-section-inner -->
+					</div> <!-- /.gs-carousel-wrap -->
+				</div> <!-- /.tt-wrap -->
 			</section>
-			<!-- End contact section -->
+			<!-- End gallery single section -->
 
 
-			<!-- ===========================
-			///// Begin footer section /////
-			================================
+			<!-- ============================================
+			///// Begin footer section (footer minimal) /////
+			=================================================
 			* Use class "footer-dark" to enable dark footer.
 			* Use class "no-margin-top" if needed. 
 			-->
-			<section id="footer" class="footer-dark no-margin-top"> <!-- margin class is optional -->
+			<section id="footer" class="footer-minimal no-margin-top bg-transparent">
 				<div class="footer-inner">
 					<div class="footer-container tt-wrap">
 						<div class="row">
-							<div class="col-md-3">
-
-								<!-- Begin footer logo -->
-								<div id="footer-logo">
-									<a href="index.html" class="logo-dark"><img src="assets/img/logo.png" alt="logo"></a>
-									<a href="index.html" class="logo-light"><img src="assets/img/logo.png" alt="logo"></a>
-
-									<!-- for small screens -->
-									<a href="index.html" class="logo-dark-m"><img src="assets/img/logo.png" alt="logo"></a>
-									<a href="index.html" class="logo-light-m"><img src="assets/img/logo.png" alt="logo"></a>
-								</div>
-								<!-- End footer logo -->
-
-							</div> <!-- /.col -->
-
-							<div class="col-md-5">
-
-								<!-- Begin footer text -->
-								<div class="footer-text">
-									<h4>- Creative Photo Studio</h4>
-									Sed non auctor magna. Nunc eu ultrices orci. Donec commodo ligula in massa ultricies volutpat. Fusce vel cursus lectus. Cras commodo odio mi, eu cursus nibh iaculis ut.
-								</div>
-								<!-- End footer text -->
-
-							</div> <!-- /.col -->
-
-							<div class="col-md-4">
+							<div class="col-md-6 col-md-push-6">
 
 								<!-- Begin social buttons -->
 								<div class="social-buttons">
 									<ul>
-										<li><a href="https://www.facebook.com/themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="https://twitter.com/Themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="https://plus.google.com/+SiiliOnu" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Google+" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-										<li><a href="https://www.pinterest.com/themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Pinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
-										<li><a href="https://dribbble.com/Themetorium" class="btn btn-social-min btn-default btn-rounded-full" title="Follow me on Dribbble" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-										<li><a href="contact.html" class="btn btn-social-min btn-default btn-rounded-full" title="Drop me a line" target="_blank"><i class="fas fa-envelope"></i></a></li>
+										<li><a href="https://www.facebook.com/themetorium" class="btn btn-social-min btn-default btn-link" title="Follow me on Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="https://twitter.com/Themetorium" class="btn btn-social-min btn-default btn-link" title="Follow me on Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="https://plus.google.com/+SiiliOnu" class="btn btn-social-min btn-default btn-link" title="Follow me on Google+" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+										<li><a href="https://www.pinterest.com/themetorium" class="btn btn-social-min btn-default btn-link" title="Follow me on Pinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+										<li><a href="https://dribbble.com/Themetorium" class="btn btn-social-min btn-default btn-link" title="Follow me on Dribbble" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+										<li><a href="contact.html" class="btn btn-social-min btn-default btn-link" title="Drop me a line" target="_blank"><i class="fas fa-envelope"></i></a></li>
 									</ul>
 								</div>
 								<!-- End social buttons -->
 
-								<!-- Begin footer subscribe form -->
-								<form id="footer-subscribe-form" class="form-btn-inside">
-									<div class="form-group">
-										<input type="email" class="form-control no-bg" id="footer-subscribe" name="subscribe" placeholder="Subscribe. Enter your email address..." required="">
-										<button type="submit"><i class="fas fa-paper-plane"></i></button>
-									</div>
-								</form>
-								<!-- End footer subscribe form -->
-
 							</div> <!-- /.col -->
 
+							<div class="col-md-6 col-md-pull-6">
+
+								<!-- Begin footer copyright -->
+								<div class="footer-copyright">
+									<p>&copy; Sepia 2017 / All rights reserved</p>
+									<p>Design by: <a href="https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium" target="_blank">Themetorium</a></p>
+								</div>
+								<!-- End footer copyright -->
+
+							</div> <!-- /.col -->
 						</div> <!-- /.row -->
 					</div> <!-- /.footer-container -->
-
-					<div class="footer-bottom">
-						<div class="footer-container tt-wrap">
-							<div class="row">
-								<div class="col-md-6 col-md-push-6">
-
-									<!-- Begin footer menu -->
-									<ul class="footer-menu">
-										<li><a href="index.html">Home</a></li>
-										<li><a href="about-me.html">About</a></li>
-										<li><a href="albums-grid-fluid-2.html">Portfolio</a></li>
-										<li><a href="blog-list-grid.html">Blog</a></li>
-										<li><a href="page-faq.html">FAQ</a></li>
-										<li><a href="contact.html">Contact</a></li>
-									</ul>
-									<!-- End footer menu -->
-
-								</div> <!-- /.col -->
-
-								<div class="col-md-6 col-md-pull-6">
-
-									<!-- Begin footer copyright -->
-									<div class="footer-copyright">
-										<p>&copy; Sepia 2017 / All rights reserved</p>
-										<p>Design by: <a href="https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium" target="_blank">Themetorium</a></p>
-									</div>
-									<!-- End footer copyright -->
-
-								</div> <!-- /.col -->
-
-							</div> <!-- /.row -->
-						</div> <!-- /.footer-container -->
-					</div> <!-- /.footer-bottom -->
-
 				</div> <!-- /.footer-inner -->
-
-				<!-- Scroll to top button -->
-				<a href="#body" class="scrolltotop sm-scroll" title="Scroll to top"><i class="fas fa-chevron-up"></i></a>
-
 			</section>
 			<!-- End footer section -->
+
+		</div>
+		<!-- End body content -->
 
 		</div>
 		<!-- End body content -->
@@ -827,11 +925,7 @@
 		<script src="assets/vendor/ytplayer/js/jquery.mb.YTPlayer.min.js"></script> <!-- YTPlayer JS (more info: https://github.com/pupunzi/jquery.mb.YTPlayer) -->
 
 		<script src="assets/vendor/lightgallery/js/lightgallery-all.min.js"></script> <!-- lightGallery Plugins JS (http://sachinchoolur.github.io/lightGallery) -->
-
-		<!-- Google maps JS (https://developers.google.com/maps/documentation/javascript/tutorial). Only for contact page!!! -->
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAo5b533IB2iuDcTn2razvfjyc_rpZdiRw&amp;callback=initMap"></script> 
-		<script src="assets/vendor/map.js"></script> 
-
+		
 		<!-- Theme master JS -->
 		<script src="assets/js/theme.js"></script>
 
@@ -864,5 +958,5 @@
 	</body>
 
 
-<!-- Mirrored from demo.themetorium.net/html/sepia/contact-fluid.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jul 2019 14:21:15 GMT -->
+<!-- Mirrored from demo.themetorium.net/html/sepia/gallery-single-carousel-center.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jul 2019 14:17:29 GMT -->
 </html>
